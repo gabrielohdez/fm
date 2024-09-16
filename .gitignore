@@ -1,0 +1,40 @@
+# Dependencias
+node_modules/
+
+# Directorios de construcción
+.next/
+out/
+dist/
+build/
+
+# Archivos de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Archivos de bloqueo de paquetes (opcional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Directorios de subidas o cargas
+public/uploads/
+
+# Configuración del editor (opcional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Otros archivos o directorios que deseas ignorar
